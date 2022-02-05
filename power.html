@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>power calculator</title>
+    <link rel="stylesheet" href="power.css">
+</head>
+<body>
+    <h1>power calculator</h1>
+    <div id="calc">
+     <p id="p1">0</p>
+     <div id="top">
+         <p id="sign"> </p>
+         <p id="number">0</p>
+     </div>
+     <table>
+         <tr>
+             <!-- <td><button onclick="clear()">C</button></td> -->
+             <td><button onclick="clearCal()">C</button></td>
+             <td><button onclick="division()">/</button></td>
+             <td><button onclick="multiply()">x</button></td>
+             <td><button onclick="difference()">-</button></td>
+         </tr>
+            <tr>
+                <td><button onclick="one()">1</button></td>
+                <td><button onclick="two()">2</button></td>
+                <td><button onclick="three()">3</button></td>
+                <td><button onclick="addition()">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="four()">4</button></td>
+                <td><button onclick="five()">5</button></td>
+                <td><button onclick="six()">6</button></td>
+                <td><button onclick="root()">R</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="seven()">7</button></td>
+                <td><button onclick="eight()">8</button></td>
+                <td><button onclick="nine()">9</button></td>
+                <td><button onclick="tan()">tan</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="zero()">0</button></td>
+                <td><button onclick="cos()">cos</button></td>
+                <td><button onclick="sin()">sin</button></td>
+                <td><button onclick="log()">log</button>
+                </td>
+            </tr>
+            <tr>
+                <td><button onclick="ln()">ln</button></td>
+                <td><button onclick="power()">x^y</button></td>
+                <td><button onclick="square()">x^2</button></td>
+                <td><button onclick="equal()">=</button>
+                </td>
+            </tr>
+
+     </table>
+     
+    </div>
+    <p id="seb">Done by seblewongel!</p>
+    <script src="power.js"></script>
+</body>
+</html>
